@@ -1,0 +1,34 @@
+{
+  "name": "module8lab-blogging-app",
+  "version": "1.0.0",
+  "main": "mongodb_blog.js",
+  "scripts": {
+    "start": "node mongodb_blog.js",
+    "test": "node mongodb_blog.js",
+    "setup": "npm install",
+    "clean": "node mongodb_blog.js --clean"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "database",
+    "blogging",
+    "crud",
+    "mysql",
+    "redis",
+    "caching"
+  ],
+  "author": "IOD Student",
+  "description": "Module 8 Lab: Complete database design demonstration with MongoDB, MySQL, and Redis implementations for a blogging platform.",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^6.17.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/IOD"
+  }
+}
